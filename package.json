@@ -1,34 +1,36 @@
 {
-    "name": "bun-react",
-    "module": "index.ts",
-    "type": "module",
-    "scripts": {
-        "dev": "react-scripts start"
-    },
-    "devDependencies": {
-        "@types/react": "^18.2.22",
-        "@types/react-dom": "^18.2.7",
-        "bun-types": "latest",
-        "react-scripts": "^5.0.1",
-        "typescript": "^5.2.2"
-    },
-    "peerDependencies": {
-        "typescript": "^5.0.0"
-    },
-    "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    }
+  "name": "bun-react",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "bun-types": "latest",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
