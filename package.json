@@ -1,0 +1,34 @@
+{
+    "name": "bun-react",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "react-scripts start"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.22",
+        "@types/react-dom": "^18.2.7",
+        "bun-types": "latest",
+        "react-scripts": "^5.0.1",
+        "typescript": "^5.2.2"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+}
